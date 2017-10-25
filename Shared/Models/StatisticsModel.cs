@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Shared.Models
 {
-    class StatisticsModel
+    public class StatisticsModel
     {
+        public int AverageConferenceAttendees { get; set; }
+        public int NumberOfAttendees { get; set; }
+
     }
 }
